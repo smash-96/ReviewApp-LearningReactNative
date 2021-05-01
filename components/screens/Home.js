@@ -34,6 +34,12 @@ function Home(props) {
       body: 'lorem ipsum',
       key: '3',
     },
+    {
+      title: 'One Piece',
+      rating: 5,
+      body: 'I am gonna be king of the pirates',
+      key: '4',
+    },
   ]);
 
   const [modalOpen, setModalOpen] = useState(false);
